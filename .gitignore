@@ -1,0 +1,94 @@
+# ==========================================================
+# Kotlin + Gradle + IntelliJ IDEA / Android Studio
+# ==========================================================
+
+# === Gradle ===
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+out/
+*.ipr
+*.iws
+
+# === Kotlin compiler outputs ===
+*.class
+*.kt~          # temporary files
+*.kotlin_module
+
+# === Logs & temp ===
+*.log
+*.tmp
+*.temp
+*.swp
+*.bak
+*.DS_Store
+Thumbs.db
+
+# === OS / Environment ===
+.vscode/
+*.bat~
+*.sh~
+*.orig
+*.rej
+
+# === Run-time data (jangan commit data user/AI) ===
+users.json
+users.json.enc
+chat_history.json
+chat_history.json.enc
+*.db
+*.sqlite
+*.key
+*.pem
+
+# === Build outputs ===
+/build/
+/out/
+/bin/
+
+# === JARs (biar repo ringan, cukup hasil shadow jar di release branch) ===
+*.jar
+*.war
+*.ear
+
+# === Generated test reports ===
+/reports/
+/test-results/
+/coverage/
+/jacoco/
+
+# === JetBrains cache ===
+.idea/
+.idea/*
+
+# === OS cache ===
+.DS_Store
+Thumbs.db
+
+# === Kotlin REPL / scratch files ===
+*.kts~
+*.repl
+
+# === Optional: Node (jika kamu pakai tooling tambahan JS) ===
+node_modules/
+package-lock.json
+yarn.lock
+
+# === Environment & Secrets ===
+.env
+*.secret
+*.token
+*.key
+*.keystore
+*.properties
+
+# === Local config untuk Raizuna ===
+# Jangan pernah commit environment master key
+# (FileStorageUtil pakai RAIZUNA_MASTER_KEY)
+local.properties
+.env.local
