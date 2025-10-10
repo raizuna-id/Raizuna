@@ -1,4 +1,4 @@
-# 🧠 Raizuna AI
+# Raizuna AI
 
 Project **Raizuna** dikembangkan oleh **Rezky Alamsyah Putra (Rezky AP)** menggunakan **Kotlin** untuk menghadirkan pengalaman interaksi terminal yang modern, aman, dan fleksibel.
 
