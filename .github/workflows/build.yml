@@ -20,8 +20,8 @@ jobs:
           distribution: 'temurin'
           java-version: '21'
 
-      - name: Setup Gradle
-        uses: gradle/gradle-build-action@v3
+      - name: Give execute permission to Gradle wrapper
+        run: chmod +x ./gradlew
 
       - name: Build with Gradle
-        run: ./gradlew build --stacktrace
+        run: ./gradlew clean build --stacktrace
