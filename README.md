@@ -1,9 +1,12 @@
-# Raizuna AI
+# 🧠 Raizuna AI
 
-Project **Raizuna** dikembangkan oleh **Rezky AP** menggunakan **Kotlin** untuk menghadirkan pengalaman interaksi terminal yang modern, aman, dan fleksibel.
+Project **Raizuna** dikembangkan oleh **Rezky Alamsyah Putra (Rezky AP)** menggunakan **Kotlin** untuk menghadirkan pengalaman interaksi terminal yang modern, aman, dan fleksibel.
 
 ![Kotlin Version](https://img.shields.io/badge/Kotlin-2.1.21-blue.svg)
+![Gradle](https://img.shields.io/badge/Gradle-8.10.1-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
+![Build](https://github.com/raizuna-id/Raizuna/actions/workflows/build.yml/badge.svg)
+![Release](https://img.shields.io/github/v/release/raizuna-id/Raizuna?color=blueviolet)
 
 ---
 
@@ -102,12 +105,5 @@ src/
 ├── test/
 └── resources/
 ```
-
----
-
-# LICENSE
-
-- Proyek ini berlisensi di bawah MIT License.
-- © 2025 **Rezky Alamsyah Putra** — **Raizuna AI**
 
 ---
