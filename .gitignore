@@ -3,9 +3,8 @@
 # ==========================================================
 
 # === Gradle ===
-# === Gradle ===
 .gradle/
-!gradle/wrapper/
+build/
 !gradle/wrapper/gradle-wrapper.jar
 !gradle/wrapper/gradle-wrapper.properties
 

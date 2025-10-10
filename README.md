@@ -82,26 +82,28 @@ Project **Raizuna** dikembangkan oleh **Rezky Alamsyah Putra (Rezky AP)** menggu
 ```text
 src/
 ├── main/kotlin/
-│   ├── core/
-│   │   ├── Application.kt
-│   │   ├── ConfigManager.kt
-│   │   └── SessionManager.kt
-│   ├── auth/
-│   │   ├── Authentication.kt
-│   │   ├── User.kt
-│   │   └── Security.kt
-│   ├── ai/
-│   │   ├── ChatEngine.kt
-│   │   ├── ModelProvider.kt
-│   │   └── ContextManager.kt
-│   ├── network/
-│   │   ├── IPManager.kt
-│   │   ├── NetworkUtils.kt
-│   │   └── ProxyConfig.kt
-│   └── ui/
-│       ├── TerminalUI.kt
-│       ├── MenuSystem.kt
-│       └── ASCIIArt.kt
+│   └── raizuna/
+│       ├── Main.kt                 # Entry point utama (fun main)
+│       ├── core/
+│       │   ├── Application.kt      # Bootstrap aplikasi
+│       │   ├── ConfigManager.kt    # Manajemen konfigurasi
+│       │   └── SessionManager.kt   # Manajemen session user
+│       ├── auth/
+│       │   ├── Authentication.kt   # Registrasi & login
+│       │   ├── User.kt             # Model user
+│       │   └── Security.kt         # Hashing, token, validasi
+│       ├── ai/
+│       │   ├── ChatEngine.kt       # Mesin percakapan
+│       │   ├── ModelProvider.kt    # Abstraksi AI provider
+│       │   └── ContextManager.kt   # Memori percakapan
+│       ├── network/
+│       │   ├── IPManager.kt        # Konfigurasi IP
+│       │   ├── NetworkUtils.kt     # Tools jaringan
+│       │   └── ProxyConfig.kt      # Proxy & VPN
+│       └── ui/
+│           ├── TerminalUI.kt       # Rendering CLI
+│           ├── MenuSystem.kt       # Navigasi menu
+│           └── ASCIIArt.kt         # Banner ASCII
 ├── test/
 └── resources/
 ```
