@@ -1,6 +1,8 @@
-# Raizuna AI
+# Raizuna Core
+### A Modular, Secure, and Scalable Kotlin Terminal Application Framework
 
-Project **Raizuna** dikembangkan oleh **Rezky Alamsyah Putra (Rezky AP)** menggunakan **Kotlin** untuk menghadirkan pengalaman interaksi terminal yang modern, aman, dan fleksibel.
+Raizuna Core adalah framework terminal berbasis Kotlin dikembangkan oleh **Rezky AP** yang menerapkan arsitektur modular, keamanan tingkat tinggi SHA-256, dan workflow enterprise.  
+Framework ini menyediakan **Sistem Autentikasi AES-256**, **Database pengguna**, dan **22 modul tools** yang dapat dikembangkan — mulai dari automation, DevOps scripting utilities, sistem analitik, hingga enterprise command utilities.
 
 ![Kotlin Version](https://img.shields.io/badge/Kotlin-2.1.21-blue.svg)
 ![Gradle](https://img.shields.io/badge/Gradle-8.10.1-orange.svg)
